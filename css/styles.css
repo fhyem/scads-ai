@@ -105,8 +105,8 @@ a {
 /* content Section */
 .hero-section {
   background-color: #005;
-  height: calc(90vh - 100px);
-  max-height: calc(100vh - 100px);
+  /* height: calc(90vh - 100px);
+  max-height: calc(100vh - 100px); */
 }
 
 .hero-text {
@@ -122,6 +122,42 @@ a {
 
 .slider-text {
   color: white;
+  font-size: 48px;
+}
+.slider-paragraph {
+  color: white;
+  font-size: 30px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 2vw;
+  height: 3vw;
+}
+
+/* All Media Queries */
+@media (max-width: 1550px) {
+  .hero-text {
+    font-size: 30px;
+  }
+  .slider-text {
+    font-size: 30px;
+  }
+  .slider-paragraph {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text {
+    font-size: 20px;
+  }
+  .slider-text {
+    font-size: 20px;
+  }
+  .slider-paragraph {
+    font-size: 12px;
+  }
 }
 
 /* contact Section */
