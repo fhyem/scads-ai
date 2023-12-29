@@ -39,3 +39,8 @@ body {
     display: none;
   }
 }
+
+/* content Section */
+.content-container {
+  margin-top: 50px;
+}
