@@ -9,19 +9,20 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light border">
+      <div class="container">
         <a class="navbar-brand text-light" href="#">
-          <span class="open_book_icon">
-            <svg width="1em" height="1em" viewBox="0 0 512 512">
-              <path
-                fill="currentColor"
-                d="M202.24 74C166.11 56.75 115.61 48.3 48 48a31.36 31.36 0 0 0-17.92 5.33A32 32 0 0 0 16 79.9V366c0 19.34 13.76 33.93 32 33.93c71.07 0 142.36 6.64 185.06 47a4.11 4.11 0 0 0 6.94-3V106.82a15.89 15.89 0 0 0-5.46-12A143 143 0 0 0 202.24 74Zm279.68-20.7A31.33 31.33 0 0 0 464 48c-67.61.3-118.11 8.71-154.24 26a143.31 143.31 0 0 0-32.31 20.78a15.93 15.93 0 0 0-5.45 12v337.13a3.93 3.93 0 0 0 6.68 2.81c25.67-25.5 70.72-46.82 185.36-46.81a32 32 0 0 0 32-32v-288a32 32 0 0 0-14.12-26.61Z"
-              />
-            </svg>
+          <span class="main_icon">
+            <img src="/assets/images/logo.png" alt="logo" />
           </span>
           <p id="bookTitle" class="m-0 logo-title"></p>
         </a>
@@ -48,12 +49,127 @@
           class="collapse navbar-collapse text-light ml-auto border-2 justify-content-end"
           id="navbarSupportedContent"
         >
-          <div class="images_links_wrapper">asdas</div>
+          <div class="links_Wrapper">
+            <div class="first_links">
+              <a href="#">Events</a>
+              <a href="#">Blogs</a>
+              <a href="#">Press</a>
+              <a href="#">
+                <svg width="18" height="18" viewBox="0 0 24 24">
+                  <path
+                    fill="#464646"
+                    d="M13.808 10.469L20.88 2h-1.676l-6.142 7.353L8.158 2H2.5l7.418 11.12L2.5 22h1.676l6.486-7.765L15.842 22H21.5zm-2.296 2.748l-.752-1.107L4.78 3.3h2.575l4.826 7.11l.751 1.107l6.273 9.242h-2.574z"
+                  />
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#464646"
+                    d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+                  />
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="18" height="18" viewBox="0 0 24 24">
+                  <path
+                    fill="#464646"
+                    d="M23 9.71a8.5 8.5 0 0 0-.91-4.13a2.92 2.92 0 0 0-1.72-1A78.36 78.36 0 0 0 12 4.27a78.45 78.45 0 0 0-8.34.3a2.87 2.87 0 0 0-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 0 0 0 6.48a9.55 9.55 0 0 0 .3 2a3.14 3.14 0 0 0 .71 1.36a2.86 2.86 0 0 0 1.49.78a45.18 45.18 0 0 0 6.5.33c3.5.05 6.57 0 10.2-.28a2.88 2.88 0 0 0 1.53-.78a2.49 2.49 0 0 0 .61-1a10.58 10.58 0 0 0 .52-3.4c.04-.56.04-3.94.04-4.54M9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08"
+                  />
+                </svg>
+              </a>
+              <a href="#">eng/deu</a>
+              <div class="search_wrapper">
+                <form class="d-flex align-items-center search_form">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 21 21"
+                    class="search_icon"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke="#464646"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="8.5" cy="8.5" r="5" />
+                      <path d="M17.571 17.5L12 12" />
+                    </g>
+                  </svg>
+                </form>
+              </div>
+            </div>
+            <div class="second_links">
+              <a href="#">About</a>
+              <a href="#">Research</a>
+              <a href="#">Publications</a>
+              <a href="#">Education</a>
+              <a href="#">Transfer</a>
+              <a href="#">Living lab</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- Contact US -->
-    <section class="Contact_section">
+    
+    <!-- Body-Content -->
+    <section class="d-flex flex-column justify-content-between">
+      <div class="hero-text d-flex align-items-center">
+        <p class="font-weight-bold">
+          CENTER FOR SCALABLE DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE
+        </p>
+      </div>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="..." alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide" />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Contact US -->
+    <div class="Contact_section">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -69,7 +185,6 @@
           <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
           <button class="btn">Send</button>
         </div>
-      </div>
       </div>
       </div>
     </section>
