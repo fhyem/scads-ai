@@ -116,9 +116,12 @@ a {
   line-height: 72px;
   font-weight: 800;
   margin-left: 200px;
-
-  width: 50%;
+  width: 40%;
   height: 100%;
+}
+
+.slider-text {
+  color: white;
 }
 
 /* contact Section */
