@@ -252,15 +252,32 @@ a {
   height: 90vh;
   margin-top: 50px;
 }
-.first-site{
-display: flex;
-gap: 20px;
-margin-top: 20px;
+.main-gallery{
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  margin-top: 23px;
+
 }
 
-.first-site img{
+.main-gallery img{
   width: 397px;
-  height: 348px;
+  height: 346px;
+  
+}
+
+@media (max-width: 1200px) {
+  .main-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  
+  }
+  .main-gallery img{
+   width: 100%;
+    
+  }
+
 }
 
 
