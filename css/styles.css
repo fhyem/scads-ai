@@ -44,3 +44,61 @@ body {
 .content-container {
   margin-top: 50px;
 }
+
+
+/* contact Section */
+.Contact_section{
+  height: 100vh;
+  background-color: #004B6F;
+}
+
+.container {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.left-site h2{
+  font-size: 40px;
+  font-weight: 700;
+  
+
+}
+.left-site p{
+  font-size: 20px;
+  font-weight: 400;
+
+  
+}
+
+.right-site input{
+   width: 100%;
+   height: 35px;
+   margin: 0 0 30px;
+   outline: none;
+}
+
+
+.right-site textarea{
+  width: 100%;
+  height: 150px;
+  resize: none;
+  outline: none;
+}
+
+.btn{
+  border: none;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(66, 124, 66);
+  color: white;
+}
+::placeholder{
+  color: rgb(126, 126, 180);
+  padding-left: 10px;
+}
+
+
+
