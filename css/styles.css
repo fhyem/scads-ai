@@ -41,6 +41,11 @@ body {
 }
 
 /* content Section */
-.content-container {
-  margin-top: 50px;
+.body-content {
+  background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 100%;
+  height: auto;
+  max-height: 100vh;
 }
