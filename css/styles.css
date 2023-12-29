@@ -269,11 +269,11 @@ p {
 
 /* contact Section */
 .Contact_section {
+  height: 75vh;
   background-color: #004b6f;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 550px;
 }
 
 .left-site h2 {
