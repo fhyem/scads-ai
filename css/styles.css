@@ -273,6 +273,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 550px;
 }
 
 .left-site h2 {
