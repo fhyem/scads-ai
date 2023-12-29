@@ -41,11 +41,6 @@ body {
 }
 
 /* content Section */
-/* .body-content {
-  position: relative;
-  margin-top: 40px;
-} */
-
 section {
   background-color: #005;
   height: calc(100vh - 100px);
