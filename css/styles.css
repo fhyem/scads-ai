@@ -383,6 +383,40 @@ font-weight: 200;
   border-bottom: 1px solid;
 }
 
+
+/* {cta section    ####################} */
+.cta{
+  margin-top: 50px;
+}
+
+.main-cta{
+  background-image: url(../assets/images/bubble\ inlay.svg);
+  background-position: center;
+  height: 396px;
+  padding: 50px 25px;
+}
+
+.main-cta h2{
+  font-size: 30px;
+color: #FFFFFF;
+letter-spacing: 0.25px;
+line-height: 42px;
+font-weight: 700;
+}
+
+.main-cta p{
+  font-size: 18px;
+color: rgba(255,255,255,0.90);
+letter-spacing: 0;
+line-height: 30px;
+font-weight: 200;
+margin-top: 20px;
+}
+
+.main-cta button{
+  margin-top: 20px;
+}
+
 /* {Queto ##################3333} */
 
 .Quote{
