@@ -521,6 +521,39 @@ p {
   margin-top: 20px;
 }
 
+@media (max-width: 1400px) {
+  .main-cta {
+    background-image: url(../assets/images/bubble\ inlay.svg);
+    background-color: #04699a;
+    height: 396px;
+    padding: 14px 25px;
+  }
+  .main-cta-green-new {
+    background-image: url(../assets/images/bubble\ inlay.svg);
+    background-color: #48952c;
+    height: 396px;
+    padding: 14px 25px;
+  }
+
+  .main-cta-blue {
+    background-color: #04699a;
+    background-image: url(../assets/images/bubble\ inlay.svg);
+    padding: 14px 25px;
+  }
+  .main-cta-green {
+    background-color: #48952c;
+    background-image: url(../assets/images/bubble\ inlay.svg);
+    padding: 14px 25px;
+  }
+  .cta-heading {
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.25px;
+    line-height: 42px;
+    font-weight: 700;
+  }
+}
+
 /* {Queto ##################3333} */
 
 .Quote {
