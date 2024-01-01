@@ -527,9 +527,10 @@ p {
   .wrapper-cta {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0;}
 .main-cta-green-new button {
   margin-top: 20px;
+}
 }
 
 @media (max-width: 1400px) {
