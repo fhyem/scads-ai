@@ -831,12 +831,11 @@ p {
 }
 /* {Teaser section ###############################} */
 .teaser {
-  height: 90vh;
+  height: 600px;
   margin-top: 50px;
   background-color: #004b6f;
 }
 .main-teaser {
-  margin-top: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
