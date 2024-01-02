@@ -568,6 +568,14 @@ p {
     line-height: 42px;
     font-weight: 700;
   }
+
+  .main-cta h2 {
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.25px;
+    line-height: 42px;
+    font-weight: 700;
+  }
 }
 
 /* {Queto ##################3333} */
