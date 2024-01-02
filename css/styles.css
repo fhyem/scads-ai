@@ -522,6 +522,9 @@ p {
 .main-cta button {
   margin-top: 20px;
 }
+.main-cta-green-new button {
+  margin-top: 20px;
+}
 
 @media (max-width: 712px) {
   .wrapper-cta {
@@ -574,6 +577,8 @@ p {
 }
 .quote-main {
   display: flex;
+  width: 60%;
+  margin: auto;
 }
 
 .main-title-quoto h2 {
