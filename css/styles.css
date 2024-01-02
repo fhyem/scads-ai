@@ -853,6 +853,78 @@ p {
   }
 }
 
+/* TABLE SECTION */
+.table {
+  border-collapse: separate;
+  border-spacing: 2em;
+}
+
+.table th {
+  background-color: #0505050d;
+  padding: 0 10px 0 10px;
+  height: 30px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.table td {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+.table td:not(:first-child) {
+  width: 200px;
+}
+
+.emphisis {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  margin-right: 18px;
+}
+
+.table2 {
+  border-collapse: separate;
+  border-spacing: 2em;
+}
+
+.table2 tr {
+  vertical-align: baseline;
+}
+
+.table2 th {
+  padding: 0 10px 0 10px;
+  height: 30px;
+  vertical-align: middle;
+  border-bottom: 4px solid #004b6f;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.table2 td {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+.table2 td:not(:first-child) {
+  width: 200px;
+}
+
 /* {partners #######################} */
 /* {Teaser section ###############################} */
 .partner {
