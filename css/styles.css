@@ -172,6 +172,43 @@ p {
   height: 3vw;
 }
 
+/* {teaser-section###########################} */
+.teaser-section{
+  margin-top: 50px;
+}
+
+.teaserSection-content h1{
+  font-size: 36px;
+color: #004B6F;
+letter-spacing: 0;
+line-height: 42px;
+font-weight: 700;
+}
+.teaserSection-content p{
+  font-size: 18px;
+  color: rgba(0,0,0,0.90);
+  letter-spacing: 0;
+  line-height: 30px;
+  font-weight: 200;
+  margin-top: 40px;
+line-height: 30px;
+}
+
+.teaserSection-content button {
+  margin-top: 40px;
+}
+
+.teaserSection-img{
+  height: 486px;
+    width: 100%;
+}
+
+.teaserSection-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* NEWS SECTION */
 
 .news_section {
