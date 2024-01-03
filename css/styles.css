@@ -1066,6 +1066,7 @@ p {
   width: 100%;
   background-color: #92a19a;
   padding: 0px 10px 0px 10px;
+  border-top: 1px solid white;
 }
 .ai-parent4 {
   width: 100%;
@@ -1076,6 +1077,7 @@ p {
   width: 100%;
   background-color: #c6bc00;
   padding: 0px 10px 0px 10px;
+  border-top: 1px solid white;
 }
 .ai-parent6 {
   width: 100%;
@@ -1092,12 +1094,100 @@ p {
 }
 
 .navigation-list-item {
-  padding: 20px 30px 0 0;
+  padding: 20px 0 0 0;
 }
 .ai-list-item1 {
   padding-bottom: 10px;
   border-bottom: 1px dotted #004b6f;
   padding: 24px 0 24px 0;
+}
+
+/* EVENTS NAVIGATION 1 SECTION */
+.events-wrapper {
+  margin-top: 10px;
+  width: 400px;
+}
+.events-termine {
+  background-color: #71bd56;
+}
+.events-termine1 {
+  background-color: #0074ac;
+}
+.events-heading {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #004b6f;
+  padding-bottom: 10px;
+}
+.events-text-parent {
+  height: 30px;
+  padding: 0 10px 0 10px;
+  width: 100%;
+}
+.events-text {
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+}
+.ai-desc {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #609fb4;
+  height: 30px;
+}
+.ai-header-parent {
+  border-bottom: 1px solid #004b6f;
+  padding-bottom: 10px;
+}
+
+/* OPEN NAVIGATION 2 SECTION */
+.ai-text1 {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #609fb4;
+}
+.ai-text2 {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #adc76b;
+}
+.ai-text3 {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #92a19a;
+}
+.ai-text4 {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #9185be;
+}
+.ai-text5 {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #c6bc00;
 }
 
 /* {partners #######################} */
