@@ -2,6 +2,24 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+.btn_primary {
+  border: none;
+  height: 48px;
+  width: 184px;
+  font-weight: 500;
+  background-color: #004b6f;
+  color: #ffff;
+  border-radius: 0;
+  transition: 0.3s ease;
+}
+.btn_primary:hover {
+  background-color: #004b6f;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn_primary:active {
+  background-color: #06567d;
+}
 a {
   text-decoration: none;
   transition: 0.4s ease;
@@ -365,13 +383,17 @@ p {
 
 /* contact Section */
 .Contact_section {
-  height: 600px;
+  position: relative;
   background-color: #004b6f;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 80px 0;
 }
 
+.left-site {
+  padding-left: 80px;
+}
 .left-site h2 {
   font-size: 48px;
   color: #ffffff;
@@ -386,41 +408,62 @@ p {
   line-height: 30px;
   font-weight: 200;
 }
+.Contact_section .network_background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 540px;
+}
+.Contact_section .network_background_image img {
+  height: 100%;
+  width: 100%;
+}
 
+.right-site {
+  padding-top: 36px;
+}
 .right-site input {
   width: 100%;
-  height: 30px;
+  padding: 6px 12px;
+  font-weight: 500;
+  color: #004b6f;
   margin: 0 0 30px;
   outline: none;
+}
+.right-site input::placeholder {
+  font-weight: 400;
+  color: #004b6f;
 }
 
 .right-site textarea {
   width: 100%;
   height: 150px;
+  padding: 6px 12px;
   resize: none;
   outline: none;
 }
+.right-site textarea::placeholder {
+  font-weight: 400;
+  color: #004b6f;
+}
 
-.btn {
+.form_send_btn {
   border: none;
   height: 48px;
   width: 184px;
+  font-weight: 500;
   background-color: #71bd56;
   color: white;
   border-radius: 0;
   transition: 0.3s ease;
 }
-.btn:hover {
-  background-color: #48952c;
+.form_send_btn:hover {
+  background-color: #71bd56;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
-::placeholder {
-  font-size: 18px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 18px;
-  font-weight: 200;
+.form_send_btn:active {
+  background-color: #48952c;
 }
 
 .input-group {
@@ -432,7 +475,8 @@ p {
 .form-check-input {
   height: 24px !important;
   width: 24px !important;
-  margin-top: 10px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
 .input-group p {
@@ -453,8 +497,20 @@ p {
 }
 
 /* {cta section    ####################} */
-.cta {
-  margin-top: 50px;
+.cta_section {
+  margin-top: 100px;
+}
+.cta_section_three_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cta_section_three_cards .card-1,
+.card-2,
+.card-3 {
+  width: 60%;
 }
 
 .wrapper-cta {
@@ -466,13 +522,11 @@ p {
 .main-cta {
   background-image: url(../assets/images/bubble\ inlay.svg);
   background-color: #04699a;
-  height: 396px;
   padding: 50px 25px;
 }
 .main-cta-green-new {
   background-image: url(../assets/images/bubble\ inlay.svg);
   background-color: #48952c;
-  height: 396px;
   padding: 50px 25px;
 }
 
@@ -578,25 +632,21 @@ p {
   .main-cta {
     background-image: url(../assets/images/bubble\ inlay.svg);
     background-color: #04699a;
-    height: 396px;
-    padding: 14px 25px;
   }
   .main-cta-green-new {
     background-image: url(../assets/images/bubble\ inlay.svg);
     background-color: #48952c;
-    height: 396px;
-    padding: 14px 25px;
   }
 
   .main-cta-blue {
     background-color: #04699a;
     background-image: url(../assets/images/bubble\ inlay.svg);
-    padding: 14px 25px;
+    padding: 40px 30px;
   }
   .main-cta-green {
     background-color: #48952c;
     background-image: url(../assets/images/bubble\ inlay.svg);
-    padding: 14px 25px;
+    padding: 40px 30px;
   }
   .cta-heading {
     font-size: 22px;
@@ -2491,6 +2541,11 @@ svg {
   .elements_sites_row {
     justify-content: center;
   }
+  .cta_section_three_cards .card-1,
+  .card-2,
+  .card-3 {
+    width: 100%;
+  }
 }
 
 @media (min-width: 991px) {
@@ -2509,6 +2564,14 @@ svg {
   .quote-main {
     margin: 0;
     width: 100%;
+  }
+  .Contact_section .network_background_image {
+    width: 100%;
+    height: auto;
+  }
+  .left-site {
+    padding-left: 0;
+    margin-bottom: 32px;
   }
 }
 @media (max-width: 580px) {
