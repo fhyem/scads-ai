@@ -1314,32 +1314,35 @@ p {
   line-height: 24px;
   font-weight: 700;
 }
+.nav-container {
+  background-color: #0074ac;
+  padding: 0 10px 0 10px;
+  height: 30px;
+}
 .nav-container2 {
   padding: 0 10px 0 10px;
   background-color: #adc76b;
+  height: 30px;
 }
 .nav-container3 {
   padding: 0 10px 0 10px;
   background-color: #92a19a;
+  height: 30px;
 }
 .nav-container4 {
   padding: 0 10px 0 10px;
   background-color: #9185be;
+  height: 30px;
 }
 .nav-container5 {
   padding: 0 10px 0 10px;
   background-color: #c6bc00;
+  height: 30px;
 }
 
 .nav-text-parent {
-  height: 30px;
   border-bottom: 1px solid #004b6f;
-  padding-bottom: 18px;
-}
-
-.nav-container {
-  background-color: #0074ac;
-  padding: 0 10px 0 10px;
+  padding-bottom: 8px;
 }
 
 /* {partners #######################} */
