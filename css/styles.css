@@ -1153,8 +1153,8 @@ p {
   padding-bottom: 10px;
 }
 .ai-text {
-  font-size: 24px;
-  color: #004b6f;
+  font-size: 18px;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
@@ -1279,7 +1279,7 @@ p {
   width: 100%;
 }
 .events-text {
-  font-size: 24px;
+  font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
@@ -1308,44 +1308,38 @@ p {
 
 /* OPEN NAVIGATION 2 SECTION */
 .ai-text1 {
-  font-size: 24px;
-  color: #004b6f;
+  font-size: 18px;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
-  background-color: #609fb4;
 }
-.ai-text2 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container2 {
+  padding: 0 10px 0 10px;
   background-color: #adc76b;
 }
-.ai-text3 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container3 {
+  padding: 0 10px 0 10px;
   background-color: #92a19a;
 }
-.ai-text4 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container4 {
+  padding: 0 10px 0 10px;
   background-color: #9185be;
 }
-.ai-text5 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container5 {
+  padding: 0 10px 0 10px;
   background-color: #c6bc00;
+}
+
+.nav-text-parent {
+  height: 30px;
+  border-bottom: 1px solid #004b6f;
+  padding-bottom: 18px;
+}
+
+.nav-container {
+  background-color: #0074ac;
+  padding: 0 10px 0 10px;
 }
 
 /* {partners #######################} */
