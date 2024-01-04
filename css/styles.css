@@ -1159,6 +1159,8 @@ p {
   line-height: 24px;
   font-weight: 700;
   background-color: #609fb4;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .navigation-number {
@@ -1183,7 +1185,6 @@ p {
 }
 
 .ai-text-parent {
-  height: 30px;
   border-bottom: 1px solid #004b6f;
   padding-bottom: 36px;
 }
@@ -1192,33 +1193,45 @@ p {
   width: 100%;
   background-color: #609fb4;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent2 {
   width: 100%;
   background-color: #adc76b;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent3 {
   width: 100%;
   background-color: #92a19a;
   padding: 0px 10px 0px 10px;
   border-top: 1px solid white;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent4 {
   width: 100%;
   background-color: #9185be;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent5 {
   width: 100%;
   background-color: #c6bc00;
   padding: 0px 10px 0px 10px;
   border-top: 1px solid white;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent6 {
   width: 100%;
   background-color: #609fb4;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 
 .ai-para {
