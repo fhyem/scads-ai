@@ -1203,8 +1203,8 @@ p {
   padding-bottom: 10px;
 }
 .ai-text {
-  font-size: 24px;
-  color: #004b6f;
+  font-size: 18px;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
@@ -1288,6 +1288,21 @@ p {
   padding: 24px 0 24px 0;
 }
 
+@media (max-width: 770px) {
+  .navigation-wrapper {
+    margin-top: 40px;
+    width: 100%;
+    background: #fbfbfb;
+    padding: 24px;
+  }
+
+  .ai-wrapper {
+    width: 100%;
+    background: #fbfbfb;
+    padding: 24px;
+  }
+}
+
 /* EVENTS NAVIGATION 1 SECTION */
 .events-wrapper {
   margin-top: 10px;
@@ -1314,7 +1329,7 @@ p {
   width: 100%;
 }
 .events-text {
-  font-size: 24px;
+  font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
@@ -1334,46 +1349,50 @@ p {
   padding-bottom: 10px;
 }
 
+@media (max-width: 770px) {
+  .events-wrapper {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
 /* OPEN NAVIGATION 2 SECTION */
 .ai-text1 {
-  font-size: 24px;
-  color: #004b6f;
+  font-size: 18px;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
-  background-color: #609fb4;
 }
-.ai-text2 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container {
+  background-color: #0074ac;
+  padding: 0 10px 0 10px;
+  height: 30px;
+}
+.nav-container2 {
+  padding: 0 10px 0 10px;
   background-color: #adc76b;
+  height: 30px;
 }
-.ai-text3 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container3 {
+  padding: 0 10px 0 10px;
   background-color: #92a19a;
+  height: 30px;
 }
-.ai-text4 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container4 {
+  padding: 0 10px 0 10px;
   background-color: #9185be;
+  height: 30px;
 }
-.ai-text5 {
-  font-size: 24px;
-  color: #004b6f;
-  letter-spacing: 0;
-  line-height: 24px;
-  font-weight: 700;
+.nav-container5 {
+  padding: 0 10px 0 10px;
   background-color: #c6bc00;
+  height: 30px;
+}
+
+.nav-text-parent {
+  border-bottom: 1px solid #004b6f;
+  padding-bottom: 8px;
 }
 
 /* {partners #######################} */
