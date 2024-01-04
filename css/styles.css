@@ -1297,6 +1297,8 @@ p {
   line-height: 24px;
   font-weight: 700;
   background-color: #609fb4;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .navigation-number {
@@ -1321,7 +1323,6 @@ p {
 }
 
 .ai-text-parent {
-  height: 30px;
   border-bottom: 1px solid #004b6f;
   padding-bottom: 36px;
 }
@@ -1330,33 +1331,45 @@ p {
   width: 100%;
   background-color: #609fb4;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent2 {
   width: 100%;
   background-color: #adc76b;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent3 {
   width: 100%;
   background-color: #92a19a;
   padding: 0px 10px 0px 10px;
   border-top: 1px solid white;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent4 {
   width: 100%;
   background-color: #9185be;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent5 {
   width: 100%;
   background-color: #c6bc00;
   padding: 0px 10px 0px 10px;
   border-top: 1px solid white;
+  height: 30px;
+  align-items: center;
 }
 .ai-parent6 {
   width: 100%;
   background-color: #609fb4;
   padding: 0px 10px 0px 10px;
+  height: 30px;
+  align-items: center;
 }
 
 .ai-para {
@@ -1956,6 +1969,21 @@ svg {
   padding-left: 24px;
 }
 
+@media (max-width: 770px) {
+  .elements_links {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #adc76b;
+    margin-bottom: 22px;
+  }
+}
+
 /* {filter###########################} */
 .filter {
   margin-top: 50px;
@@ -1967,6 +1995,14 @@ svg {
   width: 100%;
   height: 642px;
   background: rgba(0, 75, 111, 0.15);
+  padding: 20px;
+}
+.filter-head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 642px;
+  background: #fbfbfb;
   padding: 20px;
 }
 .filter-title {
@@ -2032,12 +2068,29 @@ svg {
 }
 
 .filter-first-content2 {
-  background: #fbfbfb;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 642px;
+  background: #fbfbfb;
   padding: 20px;
+}
+.filter-header {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+}
+.filter_heading {
+  flex-wrap: wrap;
+}
+.filter_heading h1 {
+  font-size: 16px;
+  color: #004b6f;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  font-weight: 900;
 }
 
 /* {other sidebar element} */
