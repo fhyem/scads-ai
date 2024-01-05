@@ -2344,15 +2344,14 @@ svg {
   padding: 15px;
 }
 
-.othersidebar-title-three{
-  background: #FBFBFB;
+.othersidebar-title-three {
+  background: #fbfbfb;
   min-height: 274px;
 }
 
-.othersidebar-title-three-two{
-  background: #FBFBFB;
+.othersidebar-title-three-two {
+  background: #fbfbfb;
   min-height: 174px;
-
 }
 
 .othersidebar-title-three h2 {
@@ -2774,7 +2773,6 @@ svg {
     height: calc(540px - 300px);
   }
   .hero-text {
-    text-align: center;
     line-height: 42px;
     font-size: 22px;
   }
