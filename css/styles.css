@@ -757,8 +757,8 @@ p {
 
 /* {blog ######################33} */
 
-.blog {
-  margin-top: 50px;
+.blog_section {
+ padding-top:84px ;
 }
 .blog-main {
   margin-top: 40px;
