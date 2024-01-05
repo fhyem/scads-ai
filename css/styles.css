@@ -236,9 +236,15 @@ p {
 
 /* {teaser-section###########################} */
 .teaser-section {
-  margin-top: 50px;
+  padding: 84px 0;
 }
 
+.teaserSection-content {
+  padding-right: 114px;
+}
+.teaserSection-content-2 {
+  padding-left: 114px;
+}
 .teaserSection-content h1 {
   font-size: 36px;
   color: #004b6f;
@@ -246,7 +252,15 @@ p {
   line-height: 42px;
   font-weight: 700;
 }
-.teaserSection-content p {
+.teaserSection-content-2 h1 {
+  font-size: 36px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 42px;
+  font-weight: 700;
+}
+.teaserSection-content p,
+.teaserSection-content-2 p {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.9);
   letter-spacing: 0;
@@ -256,7 +270,8 @@ p {
   line-height: 30px;
 }
 
-.teaserSection-content button {
+.teaserSection-content button,
+.teaserSection-content-2 button {
   margin-top: 40px;
 }
 
@@ -1198,18 +1213,11 @@ p {
 
 /* DATES SECTION */
 .dates-section {
-  position: relative;
-  height: 570px;
+  height: 100%;
 }
 
 .nachste-termine {
   margin-bottom: 80px;
-}
-
-.dates-wrapper {
-  position: absolute;
-  right: 0;
-  width: 60%;
 }
 
 .dates-text {
@@ -2715,6 +2723,12 @@ svg {
   }
   .main-title-highlated {
     width: 100%;
+  }
+  .teaserSection-content {
+    padding-right: 0;
+  }
+  .teaserSection-content-2 {
+    padding-left: 0;
   }
 }
 
