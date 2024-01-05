@@ -218,6 +218,7 @@ p {
 }
 .carousel_main {
   height: 140px;
+  background-color: #004b6f;
 }
 .carousel_main_wrapper {
   height: 100%;
@@ -2183,7 +2184,6 @@ svg {
 .othersidebar-main {
   background: #fbfbfb;
   width: 100%;
-  height: 655px;
   padding: 15px;
 }
 
@@ -2212,7 +2212,7 @@ svg {
 }
 
 .othersidebar-content h1 {
-  background: #004b6f;
+  background: #609fb4;
   padding: 3px;
   font-size: 24px;
   color: #ffffff;
@@ -2259,16 +2259,24 @@ svg {
   justify-content: center;
 }
 
+.line {
+  background-color: #004b6f;
+  height: 1px;
+}
+.line2 {
+  background-color: #ffffff;
+  height: 1px;
+}
+
 .othersidebar-main-two {
   background: #004b6f;
   width: 100%;
-  height: 655px;
-  padding: 15px;
+  padding: 0 20px 16px 20px;
 }
 
 .othersidebar-title-two {
   border-bottom: 1px solid #ffffff;
-  padding: 16px;
+  padding: 20px;
 }
 
 .othersidebar-title-two h2 {
@@ -2283,7 +2291,7 @@ svg {
 }
 
 .othersidebar-content-two h1 {
-  background: #658391;
+  background: #609fb4;
   padding: 3px;
   font-size: 24px;
   color: #ffffff;
@@ -2332,10 +2340,19 @@ svg {
 }
 
 .othersidebar-main-three {
-  background: #fbfbfb;
   width: 100%;
-  height: 254px;
   padding: 15px;
+}
+
+.othersidebar-title-three{
+  background: #FBFBFB;
+  min-height: 274px;
+}
+
+.othersidebar-title-three-two{
+  background: #FBFBFB;
+  min-height: 174px;
+
 }
 
 .othersidebar-title-three h2 {
@@ -2362,7 +2379,7 @@ svg {
   width: 100%;
   height: 173px;
   background: #fbfbfb;
-  margin-top: 150px;
+  margin-top: 20px;
   padding: 15px;
 }
 .othersidebar-title-three-two h2 {
@@ -2449,12 +2466,17 @@ svg {
   background-clip: unset !important;
 }
 
-.carousel-indicators .active {
+#indicatedCarousal .carousel-indicators .active {
   background-color: #004b6f;
 }
 .carousel-indicators {
   position: relative;
 }
+
+#secondindicatedCarousal .carousel-indicators .active {
+  background-color: #ffffff;
+}
+
 .carousel-item {
   height: 100%;
 }
