@@ -115,6 +115,9 @@ p {
 .links_Wrapper .second_links a:hover {
   color: #0074ac;
 }
+.links_Wrapper .second_links .activeLinks {
+  color: #06567d;
+}
 .links_Wrapper .search_form {
   border: 1px solid #80808091;
   border-radius: 4px;
@@ -2895,6 +2898,6 @@ svg {
   }
 }
 /* Different page styles  */
-.add_shadow{
+.add_shadow {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
