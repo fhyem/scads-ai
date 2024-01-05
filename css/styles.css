@@ -236,7 +236,7 @@ p {
 
 /* {teaser-section###########################} */
 .teaser-section {
-  padding: 84px 0;
+  padding-top: 84px;
 }
 
 .teaserSection-content {
@@ -1270,23 +1270,16 @@ p {
 
 /* NAVIGATION IN SITES SECTION */
 .navigation-termine {
-  margin-bottom: 80px;
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  background: #fbfbfb;
+  padding: 24px;
+  width: 100%;
+  /* height: 100%; */
 }
 
 .navigation-section {
-  margin-top: 2rem;
-}
-
-.navigation-wrapper {
-  margin-top: 40px;
-  width: 400px;
-  background: #fbfbfb;
-  padding: 24px;
-}
-.ai-wrapper {
-  width: 400px;
-  background: #fbfbfb;
-  padding: 24px;
+  padding-top: 70px;
 }
 
 .navigation-text {
@@ -1324,6 +1317,12 @@ p {
   letter-spacing: 0;
   line-height: 30px;
   font-weight: 200;
+  transition: 0.3s ease;
+}
+.navigation-para:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #004b6f;
 }
 
 .ai-data {
@@ -1338,63 +1337,70 @@ p {
 .ai-parent1 {
   width: 100%;
   background-color: #609fb4;
-  padding: 0px 10px 0px 10px;
-  height: 30px;
+  padding: 10px;
   align-items: center;
 }
 .ai-parent2 {
   width: 100%;
   background-color: #adc76b;
-  padding: 0px 10px 0px 10px;
-  height: 30px;
+  padding: 10px;
   align-items: center;
 }
 .ai-parent3 {
   width: 100%;
   background-color: #92a19a;
-  padding: 0px 10px 0px 10px;
-  border-top: 1px solid white;
+  padding: 10px;
   height: 30px;
   align-items: center;
+  border-bottom: 1px solid #ffff;
 }
 .ai-parent4 {
   width: 100%;
   background-color: #9185be;
-  padding: 0px 10px 0px 10px;
-  height: 30px;
+  padding: 10px;
   align-items: center;
 }
 .ai-parent5 {
   width: 100%;
   background-color: #c6bc00;
-  padding: 0px 10px 0px 10px;
-  border-top: 1px solid white;
+  padding: 10px;
   height: 30px;
   align-items: center;
 }
 .ai-parent6 {
   width: 100%;
   background-color: #609fb4;
-  padding: 0px 10px 0px 10px;
-  height: 30px;
+  padding: 10px;
   align-items: center;
 }
 
 .ai-para {
+  cursor: pointer;
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 18px;
   font-weight: 900;
+  transition: 0.3s ease;
+}
+.ai-para:hover {
+  text-decoration: underline;
+  color: #004b6f;
 }
 
 .navigation-list-item {
   padding: 20px 0 0 0;
 }
+.navigation-list-item img:hover {
+  cursor: pointer;
+}
 .ai-list-item1 {
   padding-bottom: 10px;
   border-bottom: 1px dotted #004b6f;
   padding: 24px 0 24px 0;
+}
+.ai-list-item1 img:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 770px) {
