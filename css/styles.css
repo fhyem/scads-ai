@@ -1269,7 +1269,6 @@ p {
 
 /* NAVIGATION IN SITES SECTION */
 .navigation-termine {
-  margin-top: 40px;
   background: #fbfbfb;
   padding: 24px;
   width: 100%;
@@ -1285,8 +1284,8 @@ p {
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
-  border-bottom: 1px solid #004b6f;
-  padding-bottom: 10px;
+  border-bottom: 1.6px solid #0074ac;
+  padding-bottom: 12px;
 }
 .ai-text {
   font-size: 18px;
@@ -1327,8 +1326,8 @@ p {
 }
 
 .ai-text-parent {
-  border-bottom: 1px solid #004b6f;
-  padding-bottom: 36px;
+  border-bottom: 1.6px solid #0074ac;
+  padding-bottom: 5px;
 }
 
 .ai-parent1 {
@@ -1526,32 +1525,27 @@ p {
 }
 .nav-container {
   background-color: #0074ac;
-  padding: 0 10px 0 10px;
-  height: 30px;
+  padding: 10px;
 }
 .nav-container2 {
-  padding: 0 10px 0 10px;
+  padding: 10px;
   background-color: #adc76b;
-  height: 30px;
 }
 .nav-container3 {
-  padding: 0 10px 0 10px;
+  padding: 10px;
   background-color: #92a19a;
-  height: 30px;
 }
 .nav-container4 {
-  padding: 0 10px 0 10px;
+  padding: 10px;
   background-color: #9185be;
-  height: 30px;
 }
 .nav-container5 {
-  padding: 0 10px 0 10px;
+  padding: 10px;
   background-color: #c6bc00;
-  height: 30px;
 }
 
 .nav-text-parent {
-  border-bottom: 1px solid #004b6f;
+  border-bottom: 1.6px solid #0074ac;
   padding-bottom: 8px;
 }
 
