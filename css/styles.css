@@ -45,6 +45,9 @@ p {
   text-align: center;
   margin: 3rem 0;
 }
+.border_bottom_primary {
+  border-bottom: 1px solid #004b6f;
+}
 /* Globaly styles End */
 .navbar {
   padding-top: 22px;
@@ -1216,10 +1219,6 @@ p {
   height: 100%;
 }
 
-.nachste-termine {
-  margin-bottom: 80px;
-}
-
 .dates-text {
   font-size: 24px;
   color: #004b6f;
@@ -1251,7 +1250,7 @@ p {
 }
 
 .first-data {
-  width: 90%;
+  width: 80%;
   border-bottom: 1px dotted #004b6f;
   padding-bottom: 10px;
 }
@@ -1270,12 +1269,10 @@ p {
 
 /* NAVIGATION IN SITES SECTION */
 .navigation-termine {
-  /* border: 1px solid red; */
   margin-top: 40px;
   background: #fbfbfb;
   padding: 24px;
   width: 100%;
-  /* height: 100%; */
 }
 
 .navigation-section {
@@ -1316,7 +1313,7 @@ p {
   color: #004b6f;
   letter-spacing: 0;
   line-height: 30px;
-  font-weight: 200;
+  font-weight: 300;
   transition: 0.3s ease;
 }
 .navigation-para:hover {
@@ -1350,7 +1347,6 @@ p {
   width: 100%;
   background-color: #92a19a;
   padding: 10px;
-  height: 30px;
   align-items: center;
   border-bottom: 1px solid #ffff;
 }
@@ -1364,8 +1360,8 @@ p {
   width: 100%;
   background-color: #c6bc00;
   padding: 10px;
-  height: 30px;
   align-items: center;
+  border-bottom: 1px solid #ffff;
 }
 .ai-parent6 {
   width: 100%;
@@ -1388,6 +1384,9 @@ p {
   color: #004b6f;
 }
 
+.navigation-list {
+  padding-left: 22px;
+}
 .navigation-list-item {
   padding: 20px 0 0 0;
 }
@@ -1419,15 +1418,31 @@ p {
 }
 
 /* EVENTS NAVIGATION 1 SECTION */
-.events-wrapper {
-  margin-top: 10px;
-  width: 400px;
+.navigation-section-1 {
+  padding-top: 70px;
 }
 .events-termine {
+  display: flex;
+  justify-content: space-between;
   background-color: #71bd56;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.events-text-parent-2 {
+  width: 100%;
+  transition: 0.3s ease;
+}
+.events-text-parent-2 p:hover {
+  color: #0074ac;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.events-text-parent-2 :hover {
+  cursor: pointer;
 }
 .events-termine1 {
-  background-color: #0074ac;
+  border-bottom: 1.6px solid #0074ac;
 }
 .events-heading {
   font-size: 24px;
@@ -1435,12 +1450,13 @@ p {
   letter-spacing: 0;
   line-height: 24px;
   font-weight: 700;
-  border-bottom: 1px solid #004b6f;
+  border-bottom: 1.6px solid #0074ac;
   padding-bottom: 10px;
 }
 .events-text-parent {
-  height: 30px;
-  padding: 0 10px 0 10px;
+  background-color: #0074ac;
+  margin-bottom: 10px;
+  padding: 10px;
   width: 100%;
 }
 .events-text {
@@ -1462,6 +1478,35 @@ p {
 .ai-header-parent {
   border-bottom: 1px solid #004b6f;
   padding-bottom: 10px;
+}
+.nachste_list_card {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.nachste_content {
+  flex: 6;
+  display: flex;
+  border-bottom: 1px dashed #0074ac;
+  padding: 10px 0;
+}
+.nachste_content_para {
+  font-size: 18px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 30px;
+  font-weight: 300;
+}
+.nachste_content p:hover {
+  color: #0074ac;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.nachste_arrow {
+  flex: 1;
+}
+.nachste_arrow:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 770px) {
