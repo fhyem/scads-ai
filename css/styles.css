@@ -1,6 +1,15 @@
 body {
   font-family: "Barlow", sans-serif;
 }
+
+@font-face {
+  font-family: "open-sans-light";
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "open-sans-extra-bold";
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-ExtraBold.ttf");
+}
 /* Globaly styles */
 .btn_primary {
   border: none;
@@ -2409,6 +2418,7 @@ svg {
   letter-spacing: 0;
   line-height: 30px;
   font-weight: 900;
+  font-family: "open-sans-extra-bold";
 }
 
 .othersidebar-content-two p {
@@ -2417,6 +2427,7 @@ svg {
   letter-spacing: 0;
   line-height: 30px;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 
 .othersidebar-content-two h3 {
@@ -2425,6 +2436,7 @@ svg {
   letter-spacing: 0;
   line-height: 30px;
   font-weight: 900;
+  font-family: "open-sans-extra-bold";
 }
 
 .othersidebaremail-two {
@@ -2439,6 +2451,7 @@ svg {
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 
 .othersidebar-main-two hr {
@@ -2452,12 +2465,12 @@ svg {
 
 .othersidebar-main-three {
   width: 100%;
-  padding: 15px;
 }
 
 .othersidebar-title-three {
   background: #fbfbfb;
   min-height: 274px;
+  padding: 8px 20px 16px 20px;
 }
 
 .othersidebar-title-three-two {
