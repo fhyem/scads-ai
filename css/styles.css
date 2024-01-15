@@ -47,6 +47,13 @@ p {
   text-align: center;
   margin: 3rem 0;
 }
+.section_heading_blog {
+  font-size: 24px;
+  color: #004b6f;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+}
 .border_bottom_primary {
   border-bottom: 1px solid #004b6f;
 }
@@ -833,6 +840,18 @@ p {
 }
 
 /* {blog ######################33} */
+
+.form-div {
+  width: 65%;
+}
+
+.form-div input {
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
 
 .blog_section {
   padding-top: 84px;
