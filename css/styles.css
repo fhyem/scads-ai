@@ -148,7 +148,7 @@ p {
   .links_Wrapper .second_links {
     flex-direction: column;
   }
-  .navbar-collapse{
+  .navbar-collapse {
     height: 100vh;
   }
 }
@@ -495,6 +495,7 @@ p {
   padding-top: 36px;
 }
 .right-site input {
+  border: none;
   width: 100%;
   padding: 6px 12px;
   font-weight: 500;
@@ -508,6 +509,7 @@ p {
 }
 
 .right-site textarea {
+  border: none;
   width: 100%;
   height: 150px;
   padding: 6px 12px;
@@ -517,6 +519,12 @@ p {
 .right-site textarea::placeholder {
   font-weight: 400;
   color: #004b6f;
+}
+.check_box input {
+  cursor: pointer;
+}
+.check_box input:focus {
+  box-shadow: none;
 }
 
 .form_send_btn {
@@ -530,7 +538,7 @@ p {
   transition: 0.3s ease;
 }
 .form_send_btn:hover {
-  background-color: #71bd56;
+  background-color: #3fa11d;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -1935,10 +1943,10 @@ p {
   gap: 10px;
   background: #adc76b;
   margin-bottom: 22px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 .elements_links:hover {
-background-color: #004b6f;
+  background-color: #004b6f;
 }
 .elements_links:active {
   transform: scale(0.95);

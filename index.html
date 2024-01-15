@@ -18,114 +18,117 @@
   </head>
 
   <body>
-  <div class="header">
-    <nav id="home_navbar" class="navbar  navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand text-light" href="#">
-          <a href="index.html" class="main_icon">
-            <img src="/assets/images/logo.png" alt="logo" />
+    <div class="header">
+      <nav
+        id="home_navbar"
+        class="navbar navbar-expand-lg navbar-light fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">
+            <a href="index.html" class="main_icon">
+              <img src="/assets/images/logo.png" alt="logo" />
+            </a>
+            <p id="bookTitle" class="m-0 logo-title"></p>
           </a>
-          <p id="bookTitle" class="m-0 logo-title"></p>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <svg viewBox="0 0 30 30" class="navbar-toggler-icon">
-            <path
-              stroke="rgba(255, 255, 255, 0.55)"
-              stroke-linecap="round"
-              stroke-miterlimit="10"
-              stroke-width="2"
-              d="M4 7h22M4 15h22M4 23h22"
-            />
-          </svg>
-        </button>
-        <div
-          class="collapse navbar-collapse text-light ml-auto border-2 justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <div class="links_Wrapper">
-            <div class="first_links">
-              <a href="#">Events</a>
-              <a href="#">Blogs</a>
-              <a href="#">Press</a>
-              <a href="#">
-                <svg width="18" height="18" viewBox="0 0 24 24">
-                  <path
-                    fill="#464646"
-                    d="M13.808 10.469L20.88 2h-1.676l-6.142 7.353L8.158 2H2.5l7.418 11.12L2.5 22h1.676l6.486-7.765L15.842 22H21.5zm-2.296 2.748l-.752-1.107L4.78 3.3h2.575l4.826 7.11l.751 1.107l6.273 9.242h-2.574z"
-                  />
-                </svg>
-              </a>
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#464646"
-                    d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
-                  />
-                </svg>
-              </a>
-              <a href="#">
-                <svg width="18" height="18" viewBox="0 0 24 24">
-                  <path
-                    fill="#464646"
-                    d="M23 9.71a8.5 8.5 0 0 0-.91-4.13a2.92 2.92 0 0 0-1.72-1A78.36 78.36 0 0 0 12 4.27a78.45 78.45 0 0 0-8.34.3a2.87 2.87 0 0 0-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 0 0 0 6.48a9.55 9.55 0 0 0 .3 2a3.14 3.14 0 0 0 .71 1.36a2.86 2.86 0 0 0 1.49.78a45.18 45.18 0 0 0 6.5.33c3.5.05 6.57 0 10.2-.28a2.88 2.88 0 0 0 1.53-.78a2.49 2.49 0 0 0 .61-1a10.58 10.58 0 0 0 .52-3.4c.04-.56.04-3.94.04-4.54M9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08"
-                  />
-                </svg>
-              </a>
-              <a href="#">eng/deu</a>
-              <div class="search_wrapper">
-                <form class="d-flex align-items-center search_form">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <svg
-                    width="26"
-                    height="26"
-                    viewBox="0 0 21 21"
-                    class="search_icon"
-                  >
-                    <g
-                      fill="none"
-                      fill-rule="evenodd"
-                      stroke="#464646"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <circle cx="8.5" cy="8.5" r="5" />
-                      <path d="M17.571 17.5L12 12" />
-                    </g>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg viewBox="0 0 30 30" class="navbar-toggler-icon">
+              <path
+                stroke="rgba(255, 255, 255, 0.55)"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="2"
+                d="M4 7h22M4 15h22M4 23h22"
+              />
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse text-light ml-auto border-2 justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div class="links_Wrapper">
+              <div class="first_links">
+                <a href="#">Events</a>
+                <a href="#">Blogs</a>
+                <a href="#">Press</a>
+                <a href="#">
+                  <svg width="18" height="18" viewBox="0 0 24 24">
+                    <path
+                      fill="#464646"
+                      d="M13.808 10.469L20.88 2h-1.676l-6.142 7.353L8.158 2H2.5l7.418 11.12L2.5 22h1.676l6.486-7.765L15.842 22H21.5zm-2.296 2.748l-.752-1.107L4.78 3.3h2.575l4.826 7.11l.751 1.107l6.273 9.242h-2.574z"
+                    />
                   </svg>
-                </form>
+                </a>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#464646"
+                      d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+                    />
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg width="18" height="18" viewBox="0 0 24 24">
+                    <path
+                      fill="#464646"
+                      d="M23 9.71a8.5 8.5 0 0 0-.91-4.13a2.92 2.92 0 0 0-1.72-1A78.36 78.36 0 0 0 12 4.27a78.45 78.45 0 0 0-8.34.3a2.87 2.87 0 0 0-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 0 0 0 6.48a9.55 9.55 0 0 0 .3 2a3.14 3.14 0 0 0 .71 1.36a2.86 2.86 0 0 0 1.49.78a45.18 45.18 0 0 0 6.5.33c3.5.05 6.57 0 10.2-.28a2.88 2.88 0 0 0 1.53-.78a2.49 2.49 0 0 0 .61-1a10.58 10.58 0 0 0 .52-3.4c.04-.56.04-3.94.04-4.54M9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08"
+                    />
+                  </svg>
+                </a>
+                <a href="#">eng/deu</a>
+                <div class="search_wrapper">
+                  <form class="d-flex align-items-center search_form">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <svg
+                      width="26"
+                      height="26"
+                      viewBox="0 0 21 21"
+                      class="search_icon"
+                    >
+                      <g
+                        fill="none"
+                        fill-rule="evenodd"
+                        stroke="#464646"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <circle cx="8.5" cy="8.5" r="5" />
+                        <path d="M17.571 17.5L12 12" />
+                      </g>
+                    </svg>
+                  </form>
+                </div>
               </div>
-            </div>
-            <div id="second_links" class="second_links">
-              <a href="about.html" class="btn_link">About</a>
-              <a href="research.html" class="btn_link">Research</a>
-              <a href="publications.html" class="btn_link">Publications</a>
-              <a href="education.html" class="btn_link">Education</a>
-              <a href="transfer.html" class="btn_link">Transfer</a>
-              <a href="living-lab.html" class="btn_link">Living lab</a>
+              <div id="second_links" class="second_links">
+                <a href="about.html" class="btn_link">About</a>
+                <a href="research.html" class="btn_link">Research</a>
+                <a href="publications.html" class="btn_link">Publications</a>
+                <a href="education.html" class="btn_link">Education</a>
+                <a href="transfer.html" class="btn_link">Transfer</a>
+                <a href="living-lab.html" class="btn_link">Living lab</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
-  </div>
+      </nav>
+    </div>
     <!-- Body-Content -->
 
     <!-- Hero Section -->
@@ -371,7 +374,7 @@
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <div class="input-group mb-4 mt-4">
+              <div class="input-group check_box mb-4 mt-4">
                 <input
                   class="form-check-input mt-0"
                   type="checkbox"
