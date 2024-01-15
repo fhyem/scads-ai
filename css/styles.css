@@ -2801,11 +2801,12 @@ svg {
   border-bottom: 1px dashed #ffffff;
   font-family: "open-sans-extra-bold";
 }
-.footer_section .heading_content P {
+.footer_section .heading_content p {
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 .footer_section .heading_content_last {
   margin-top: 28px;
@@ -2833,6 +2834,7 @@ svg {
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 700;
+  font-family: "open-sans-light";
 }
 .address_content .address_para {
   font-size: 18px;
@@ -2849,11 +2851,12 @@ svg {
   text-transform: capitalize;
   font-family: "open-sans-extra-bold";
 }
-.footer_section .address_content_3 P {
+.footer_section .address_content_3 p {
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 .footer_section .dash_bottom {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
