@@ -1113,7 +1113,7 @@ p {
 
 .highlated-section {
   position: relative;
-  background: #004b6fed;
+  background: #004b6f;
   overflow: hidden;
   padding: 80px 0;
 }
@@ -1215,14 +1215,14 @@ p {
 }
 .highlight_bg_bubble {
   position: absolute;
-  bottom: -333px;
-  width: 100%;
-  height: 100%;
+  bottom: -63%;
+  left: -27%;
+  width: 148%;
 }
 .highlight_bg_bubble img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 @media (max-width: 800px) {
   .highlated-main {
@@ -2853,6 +2853,9 @@ svg {
   .teaserSection-content-2 {
     padding-left: 0;
   }
+  .highlight_bg_bubble {
+    bottom: 30%;
+  }
 }
 
 @media (min-width: 991px) {
@@ -2876,6 +2879,9 @@ svg {
   .left-site {
     padding-left: 0;
     margin-bottom: 32px;
+  }
+  .highlight_bg_bubble {
+    bottom: 50%;
   }
 }
 @media (max-width: 580px) {
