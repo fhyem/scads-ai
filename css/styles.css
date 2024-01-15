@@ -148,6 +148,9 @@ p {
   .links_Wrapper .second_links {
     flex-direction: column;
   }
+  .navbar-collapse{
+    height: 100vh;
+  }
 }
 
 /* {content sectiobn$$################3} */
