@@ -50,8 +50,7 @@ p {
 }
 /* Globaly styles End */
 .navbar {
-  padding-top: 22px;
-  padding-bottom: 22px;
+  height: 120px;
 }
 .navbar-brand {
   display: flex;
@@ -211,7 +210,7 @@ p {
 .slider-paragraph {
   color: white;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .carousel-control-next-icon,
