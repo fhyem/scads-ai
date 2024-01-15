@@ -17,6 +17,7 @@ body {
 .btn_primary:hover {
   color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #066fa1;
 }
 .btn_primary:active {
   background-color: #06567d;
@@ -1313,6 +1314,12 @@ p {
 .dates-section {
   height: 100%;
 }
+.dates-section a {
+  transition: 0.4s ease;
+}
+.dates-section a:hover {
+  text-decoration: underline;
+}
 
 .dates-text {
   font-size: 24px;
@@ -1352,6 +1359,7 @@ p {
 
 .dates-list-item {
   padding: 20px 30px 0 0;
+  justify-content: flex-start !important;
 }
 
 @media (max-width: 770px) {
