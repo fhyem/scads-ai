@@ -49,8 +49,12 @@ p {
   border-bottom: 1px solid #004b6f;
 }
 /* Globaly styles End */
-.navbar {
+.header {
   height: 120px;
+  background-color: #ffff;
+}
+.navbar {
+  background-color: white !important;
 }
 .navbar-brand {
   display: flex;
