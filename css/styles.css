@@ -2777,6 +2777,7 @@ svg {
   letter-spacing: 0;
   line-height: 30px;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 .footer_section .company_description_part {
   margin-top: 42px;
@@ -2790,6 +2791,7 @@ svg {
   text-transform: capitalize;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding-bottom: 8px;
+  font-family: "open-sans-extra-bold";
 }
 .footer_section .heading_content h1 {
   margin-top: 28px;
@@ -2800,12 +2802,14 @@ svg {
   padding-bottom: 8px;
   text-transform: uppercase;
   border-bottom: 1px dashed #ffffff;
+  font-family: "open-sans-extra-bold";
 }
-.footer_section .heading_content P {
+.footer_section .heading_content p {
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 .footer_section .heading_content_last {
   margin-top: 28px;
@@ -2815,6 +2819,7 @@ svg {
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 500;
+  font-family: "open-sans-extra-bold";
 }
 .address_content {
   border-top: 1px dashed #ffffff;
@@ -2823,11 +2828,16 @@ svg {
   margin-top: 57px;
 }
 
+.head-address-content {
+  font-family: "open-sans-extra-bold";
+}
+
 .address_content p {
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 700;
+  font-family: "open-sans-light";
 }
 .address_content .address_para {
   font-size: 18px;
@@ -2842,12 +2852,14 @@ svg {
   letter-spacing: 0;
   font-weight: 500;
   text-transform: capitalize;
+  font-family: "open-sans-extra-bold";
 }
-.footer_section .address_content_3 P {
+.footer_section .address_content_3 p {
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 200;
+  font-family: "open-sans-light";
 }
 .footer_section .dash_bottom {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -2859,6 +2871,9 @@ svg {
   align-items: center;
   display: flex;
   border-bottom: 1px dashed #ffffff;
+}
+.footer_section .footer_links_wrapper .links_box h1 {
+  font-family: "open-sans-light";
 }
 .footer_section .footer_links_wrapper .links_box svg {
   color: #ffff;
@@ -2916,11 +2931,12 @@ svg {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  font-family: "open-sans-extra-bold";
 }
 .footer_section .footer_background_svg {
   position: absolute;
   top: -120px;
-  left: -58px;
+  left: -143px;
   width: auto;
   height: 879px;
 }
