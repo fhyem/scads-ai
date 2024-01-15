@@ -1456,7 +1456,7 @@ p {
 }
 .ai-para:hover {
   text-decoration: underline;
-  color: #004b6f;
+  /* color: #004b6f; */
 }
 
 .navigation-list {
