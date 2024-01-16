@@ -67,6 +67,8 @@ p {
   border-bottom: 1px solid #004b6f;
 }
 /* Globaly styles End */
+
+/* NAVBAR Styles */
 .header {
   height: 120px;
   background-color: #ffff;
@@ -153,7 +155,7 @@ p {
   margin-right: 12px;
 }
 
-/* All Media Queries */
+/* All Media Queries for NAVBAR */
 @media (max-width: 991px) {
   .links_Wrapper {
     display: flex;
